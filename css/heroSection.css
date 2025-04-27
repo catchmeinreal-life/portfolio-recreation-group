@@ -1,3 +1,7 @@
+/* hero section css 
+for all the pages */
+
+
 .hero {
     position: relative;
     color: white;
@@ -25,4 +29,11 @@
     background: transparent;
     position: relative;
     z-index: 2;
+  }
+
+
+  /* changes to center headings across 
+  contact , index and about pages */
+  .hero h1, h2{
+    text-align: center;
   }

@@ -11,7 +11,7 @@ We used **HTML**, **CSS**, and the **javaScript**  to ensure responsiveness and 
 
 ## 🛠️ Technologies Used
 - HTML5
-- CSS3
+- CSS3 (Bootstrap CSS )
 - JavaScript
 
 ## 🗺️ Project Structure
