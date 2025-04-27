@@ -6,7 +6,7 @@ We used **HTML**, **CSS**, and the **javaScript**  to ensure responsiveness and 
 
 ## 👨‍💻 Group Members
 - Eric Matutu (GitHub: @catchmeinreal-life)
-- 
+- Eugene Kipchirchir (GitHub: @Egenue)
 -
 
 ## 🛠️ Technologies Used
