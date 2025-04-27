@@ -18,11 +18,12 @@
       position: relative;
       color: white;
       padding: 100px 0;
-      text-align: center;
-      background-image: url("/images/WhatsApp\ Image\ 2025-04-27\ at\ 3.09.30\ PM.jpeg");
+      /* text-align: center; */
+      background-image: url("./images/background.jpeg");
       background-size: cover;
       background-position: center;
       z-index: 1;
+      /* min-height: 100vh; */
     }
 
     .hero::before {
@@ -37,15 +38,19 @@
     }
 
     .hero .container {
+      background: transparent;
       position: relative;
       z-index: 2;
     }
 
     .hero img {
-      position: absolute;
+      
+      position: absolute; 
+      top: 15%;
       right: 10%;
       bottom: 0;
-      height: 300px;
+      height: 80%;
+      width: auto;
     }
 
     .btn-custom {
@@ -61,6 +66,9 @@
     .services .card {
       border: none;
       text-align: center;
+    }
+    .services .card .card-body img {
+      margin-bottom: 20px;
     }
 
     .row2 {
@@ -131,18 +139,20 @@
 
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Hero Section About us -->
   <section class="hero">
     <div class="container position-relative">
       <h1>Hi, I'm John Watson</h1>
       <h2>Web Developer</h2>
       <p>I love Graphic design and Photography and have been working since
-        2016. I can give your business a new creative
+        2016. <br> I can give your business a new creative
         start right away!</p>
       <a href="#" class="btn btn-success btn-custom">Hire Me</a>
       <a href="#" class="btn btn-outline-light btn-custom">My Portfolio</a>
-      <!-- <img src="/images/WhatsApp Image 2025-04-27 at 1.42.24 PM.jpeg" alt=""> -->
     </div>
+    <img src="./images/hero.jpeg" alt="my profile image" class="img-fluid">
+   
+    
   </section>
 
   <!-- About Section -->
@@ -150,7 +160,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-5">
-          <img src="/images/profile.png" alt="Profile" class="img-fluid">
+          <img src="./images/profile.png" alt="Profile" class="img-fluid">
         </div>
         <div class="col-md-7">
           <h5>My Biography</h5>
@@ -173,6 +183,8 @@
     </div>
   </section>
 
+  <!-- end about section -->
+
   <!-- Services Section -->
   <section class="services py-5 bg-light">
     <div class="container">
@@ -181,7 +193,7 @@
         <div class="col-md-4">
           <div class="card p-4">
             <div class="card-body">
-              <img src="/images/web_design_icon.svg" alt="Web Design Icon" width="64" height="64">
+              <img src="./images/web_design_icon.svg" alt="Web Design Icon" width="64" height="64">
               <h5>Web Development</h5>
               <p>Building beautiful and responsive websites tailored to your
                 needs.</p>
@@ -191,7 +203,7 @@
         <div class="col-md-4">
           <div class="card p-4">
             <div class="card-body">
-              <img src="/images/Screenshot 2025-04-27 130904.png" alt>
+              <img src="./images/Screenshot 2025-04-27 130904.png" alt>
               <h5>App Development</h5>
               <p>Creating seamless and functional mobile applications for all
                 platforms.</p>
@@ -201,7 +213,7 @@
         <div class="col-md-4">
           <div class="card p-4">
             <div class="card-body">
-              <img src="/images/Screenshot 2025-04-27 130921.png" alt>
+              <img src="./images/Screenshot 2025-04-27 130921.png" alt>
               <h5>Photography</h5>
               <p>Capturing high-quality photos for your brand and business
                 identity.</p>
@@ -220,24 +232,24 @@
     <div class="container">
       <h2 class="section-title">My Featured Skills</h2>
       <div class="skills-container">
-        <img id="Skills_image" src="/images/WhatsApp Image 2025-04-27 at 1.42.23 PM.jpeg" alt="Skills">
+        <img id="Skills_image" src="./images/WhatsApp Image 2025-04-27 at 1.42.23 PM.jpeg" alt="Skills">
         <div class="row2">
           <div class="col-md-12">
             <h6>UI/UX Design</h6>
             <div class="progress mb-3">
-              <div class="progress-bar bg-success" style="width: 90%;">90%</div>
+              <div class="progress-bar bg-success" style="width: 90%;"></div>
             </div>
             <h6>Ideas & Technology</h6>
             <div class="progress mb-3">
-              <div class="progress-bar bg-success" style="width: 85%;">85%</div>
+              <div class="progress-bar bg-success" style="width: 85%;"></div>
             </div>
             <h6>Branding Design</h6>
             <div class="progress mb-3">
-              <div class="progress-bar bg-success" style="width: 80%;">80%</div>
+              <div class="progress-bar bg-success" style="width: 80%;"></div>
             </div>
             <h6>Responsive Web Design</h6>
             <div class="progress mb-3">
-              <div class="progress-bar bg-success" style="width: 95%;">95%</div>
+              <div class="progress-bar bg-success" style="width: 95%;"></div>
             </div>
           </div>
         </div>
@@ -275,22 +287,22 @@
       <h2 class="section-title">My Success Work</h2>
       <div class="row g-3">
         <div class="col-md-4">
-          <img src="/images/Screenshot 2025-04-27 162532.png" alt="Work 1" class="img-fluid">
+          <img src="./images/Screenshot 2025-04-27 162532.png" alt="Work 1" class="img-fluid">
         </div>
         <div class="col-md-4">
-          <img src="/images/Screenshot 2025-04-27 162547.png" alt="Work 2" class="img-fluid">
+          <img src="./images/Screenshot 2025-04-27 162547.png" alt="Work 2" class="img-fluid">
         </div>
         <div class="col-md-4">
-          <img src="/images/Screenshot 2025-04-27 162603.png" alt="Work 3" class="img-fluid">
+          <img src="./images/Screenshot 2025-04-27 162603.png" alt="Work 3" class="img-fluid">
         </div>
         <div class="col-md-4">
-          <img src="/images/Screenshot 2025-04-27 162657.png" alt="Work 4" class="img-fluid">
+          <img src="./images/Screenshot 2025-04-27 162657.png" alt="Work 4" class="img-fluid">
         </div>
         <div class="col-md-4">
-          <img src="/images/Screenshot 2025-04-27 162638.png" alt="Work 5" class="img-fluid">
+          <img src="./images/Screenshot 2025-04-27 162638.png" alt="Work 5" class="img-fluid">
         </div>
         <div class="col-md-4">
-          <img src="/images/Screenshot 2025-04-27 162621.png" alt="Work 6" class="img-fluid">
+          <img src="./images/Screenshot 2025-04-27 162621.png" alt="Work 6" class="img-fluid">
         </div>
       </div>
     </div>
